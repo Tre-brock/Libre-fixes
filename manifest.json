@@ -10,8 +10,8 @@
 	    "128": "icons/L4Libre128.png"
 	},
     "browser_action": {
-	    "default_icon": "icons/test.png",
-	    "default_title": "Launch USPS tools"
+	    "default_icon": "icons/L4Libre128.png",
+		"default_popup": "html/Test.html"
     },
     "applications": {
 	"gecko": {
