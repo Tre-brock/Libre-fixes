@@ -29,7 +29,7 @@ if(document.location.href.indexOf("docs.google.com") != -1){
     var id;
     var url;
     function form_check(){
-	console.log("mmmmmmm");
+	console.log("boop");
 	var format = "";
 	var input = document.getElementsByTagName("input");
 	if(input[input.length-1].value != "Expected 3 letter file extension"){
@@ -53,8 +53,6 @@ if(document.location.href.indexOf("docs.google.com") != -1){
 	document.location.assign(new_url);
 	return 0;
     }
-
-
     var contains_apostrophe = "Download a google doc";
     var opts_form =
 	'	<br>'+
@@ -75,53 +73,48 @@ if(document.location.href.indexOf("docs.google.com") != -1){
 
     // see if its a document or not.
     function check_valid(){
-	id = "no ID found.";
-	var url_arr = document.location.href.split("/");
-	for(var i = 0; i < url_arr.length-1; i++){
-	    if(url_arr[i] == "d"){
-		id = url_arr[i+1];
-		break;
-	    }
-	    if(url_arr[i].indexOf("id=") != -1){
-		id = document.location.href.substring(url_arr[i].indexOf("id=")+3,document.location.href.length);
-		break;
-	    }
-	}
-	console.log(id);
-	if(id == "no ID found."){
-	    // do nothing because it could be an info page or something
-	    console.log("no id found.");
-	    return false;
-	}
-	else {
-	    return true;
-	}
-    }
-
-
-
-
-    function main(){
+		id = "no ID found.";
+		var url_arr = document.location.href.split("/");
+		for(var i = 0; i < url_arr.length-1; i++){
+			if(url_arr[i] == "d"){
+			id = url_arr[i+1];
+			break;
+			}
+			if(url_arr[i].indexOf("id=") != -1){
+			id = document.location.href.substring(url_arr[i].indexOf("id=")+3,document.location.href.length);
+			break;
+			}
+		}
+		console.log(id);
+		if(id == "no ID found."){
+			// do nothing because it could be an info page or something
+			console.log("no id found.");
+			return false;
+		}
+		else {
+			return true;
+		}
+		}
 	
-	if(check_valid()){	
-	    console.log("---------------------------------"+Date.now()+":Detected Google Drive."+"---------------------------------");
-	    window.stop();
-	    document.head.innerHTML = "";
-	    document.body.innerHTML = opts_form;
-	    document.body.style.textAlign = "center";
-	    document.getElementById("opts").style.textAlign = "left";	
-	    //document.getElementsById("opts").style.float = "left";	
-	    document.body.style.marginTop = "2%"
-	    document.body.style.marginLeft = "25%"
-	    document.body.style.marginRight = "25%"
-	    document.getElementById("submit").addEventListener("click",form_check);
+	
+	
+		function main(){
+		
+		if(check_valid()){	
+			console.log("---------------------------------"+Date.now()+":Detected Google Drive."+"---------------------------------");
+			window.stop();
+			document.head.innerHTML = "";
+			document.body.innerHTML = opts_form;
+			document.body.style.textAlign = "center";
+			document.getElementById("opts").style.textAlign = "left";	
+			//document.getElementsById("opts").style.float = "left";	
+			document.body.style.marginTop = "2%"
+			document.body.style.marginLeft = "25%"
+			document.body.style.marginRight = "25%"
+			document.getElementById("submit").addEventListener("click",form_check);
+		}
+		return 0;
+		}
+		main();
 	}
-	return 0;
-    }
-    main();
-
-
-
-
-
-}
+	

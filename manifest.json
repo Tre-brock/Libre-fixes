@@ -12,7 +12,7 @@
 	    "default_icon": "icons/L4Libre128.png",
 		"default_popup": "html/Test.html"
     },
-	
+
     
     "background":{
 	    "scripts": ["background.js"]
@@ -38,13 +38,7 @@
 			    "*://*.sermepa.es/*",
 				"*://old.reddit.com/*"
 		    ],
-		
-	
-	"css": [
-		"styles.css"
-	  ],
-
-	        "js": [
+			"js": [
 		        "workaround/mcdonalds_wifi.js",
 		        "workaround/sumofus_main.js",
 		        "workaround/paygov_main.js",
@@ -53,7 +47,13 @@
 		        "workaround/goteo_main.js"
 		    ],
 	    
-		"run_at":"document_start"}
+	
+	"css": [
+		"styles.css"
+	  ]
+
+	 
+	 }
     ],
     "permissions":[
 	    "*://reg.usps.com/*",
@@ -69,6 +69,7 @@
     "*://amp.reddit.com/*",
     "*://i.reddit.com/*",
     "*://i.redd.it/*",
+	"*://docs.google.com/*",
     "*://preview.redd.it/*"
     ]
 }
