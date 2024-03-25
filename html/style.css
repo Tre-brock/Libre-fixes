@@ -1,0 +1,30 @@
+
+
+body {
+    background-color: rgb(53, 53, 53);
+  }
+  h4 {
+    color:rgb(214, 248, 248);
+    text-align: center;
+    }
+
+    h2 {
+      color:rgb(215, 255, 255);
+      text-align: center;
+      }
+  h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  h5 {
+    color: rgb(255, 255, 214);
+    text-align: right;
+  }
+  h3 {
+    color: rgb(235, 255, 235);
+    text-align: right;
+  }
+  p {
+    color: rgb(225, 220, 255);
+    text-align: center;
+  }
