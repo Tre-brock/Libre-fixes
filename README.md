@@ -7,7 +7,7 @@ Features: <br>
 
 Google Docs LibreJS workaround, letting you download google docs  <br>
 SumOfUs LibreJS workaround  <br>
-DMCA Copyright.gov LibreJS workaround  <br>
+DMCA Copyright.gov LibreJS workaround  User reddit without unfree JS<br>
 RSF LibreJS workaround  <br>
 McDonalds and ATTWiFi LibreJS workaround  <br>
 Goteo LibreJS workaround  <br>
