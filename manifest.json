@@ -35,8 +35,15 @@
 			    "https://pgw.ceca.es/cgi-bin/tpv",
 			    "https://pgw.ceca.es/tpvweb/tpv/compra.action",
 			    "*://*.goteo.org/*",
-			    "*://*.sermepa.es/*"
+			    "*://*.sermepa.es/*",
+				"*://old.reddit.com/*"
 		    ],
+		
+	
+	"css": [
+		"styles.css"
+	  ],
+
 	        "js": [
 		        "workaround/mcdonalds_wifi.js",
 		        "workaround/sumofus_main.js",
@@ -44,8 +51,9 @@
 		        "workaround/rsf_main.js",
 		        "workaround/googledocs_main.js",
 		        "workaround/goteo_main.js"
-		    ]
-	    }
+		    ],
+	    
+		"run_at":"document_start"}
     ],
     "permissions":[
 	    "*://reg.usps.com/*",
@@ -54,6 +62,13 @@
 	    "*://*.sumofus.org/*",
 	    "*://*.actions.sumofus.org/*",
 	    "webRequest",
-	    "*://*.pay.gov/*"
+	    "*://*.pay.gov/*",
+		"*://reddit.com/*",
+    "*://www.reddit.com/*",
+    "*://np.reddit.com/*",
+    "*://amp.reddit.com/*",
+    "*://i.reddit.com/*",
+    "*://i.redd.it/*",
+    "*://preview.redd.it/*"
     ]
 }
