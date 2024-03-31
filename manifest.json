@@ -36,7 +36,8 @@
 			    "https://pgw.ceca.es/tpvweb/tpv/compra.action",
 			    "*://*.goteo.org/*",
 			    "*://*.sermepa.es/*",
-				"*://old.reddit.com/*"
+				"*://old.reddit.com/*",
+				"*://*.classlink.com/*"
 		    ],
 			"js": [
 		        "workaround/mcdonalds_wifi.js",
@@ -44,7 +45,9 @@
 		        "workaround/paygov_main.js",
 		        "workaround/rsf_main.js",
 		        "workaround/googledocs_main.js",
-		        "workaround/goteo_main.js"
+		        "workaround/goteo_main.js",
+				"workaround/Classlink.js"
+				
 		    ],
 	    
 	
@@ -70,6 +73,7 @@
     "*://i.reddit.com/*",
     "*://i.redd.it/*",
 	"*://docs.google.com/*",
-    "*://preview.redd.it/*"
+    "*://preview.redd.it/*",
+	"*://*.classlink.com/*"
     ]
 }
