@@ -16,6 +16,7 @@ Easy install of newest Libre JS version.<br>
 ceca.es LibreJS workaround  <br>
 sermepa.es LibreJS workaround  <br>
 USPS Shipping Calculator LibreJS by clicking the icon  <br>
+Tells you to use a freedom respecting email client when going to gmail.<br>
 <br>
 WORK IN PROGRESS <br>
 

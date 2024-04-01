@@ -37,7 +37,8 @@
 			    "*://*.goteo.org/*",
 			    "*://*.sermepa.es/*",
 				"*://old.reddit.com/*",
-				"*://*.classlink.com/*"
+				"*://*.classlink.com/*",
+				"*://mail.google.com/*"
 		    ],
 			"js": [
 		        "workaround/mcdonalds_wifi.js",
@@ -46,7 +47,8 @@
 		        "workaround/rsf_main.js",
 		        "workaround/googledocs_main.js",
 		        "workaround/goteo_main.js",
-				"workaround/Classlink.js"
+				"workaround/Classlink.js",
+				"workaround/Gmail.js"
 				
 		    ],
 	    
@@ -74,6 +76,7 @@
     "*://i.redd.it/*",
 	"*://docs.google.com/*",
     "*://preview.redd.it/*",
-	"*://*.classlink.com/*"
+	"*://*.classlink.com/*",
+	"*://mail.google.com/*"
     ]
 }
