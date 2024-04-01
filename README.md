@@ -5,6 +5,7 @@ This addon is mainly ment to be included with LibreJs. https://www.gnu.org/softw
 
 Features: <br>
 
+
 Google Docs LibreJS workaround, letting you download google docs  <br>
 SumOfUs LibreJS workaround  <br>
 DMCA Copyright.gov LibreJS workaround  User reddit without unfree JS<br>
@@ -15,4 +16,9 @@ Easy install of newest Libre JS version.<br>
 ceca.es LibreJS workaround  <br>
 sermepa.es LibreJS workaround  <br>
 USPS Shipping Calculator LibreJS by clicking the icon  <br>
+<br>
+WORK IN PROGRESS <br>
 
+Sign into classlink without nonfree js.<br>
+(https://launchpad.classlink.com) <br>
+Current progress: 20%. You can currently click on the login here button without js and then get onto the next step, but not much else.
