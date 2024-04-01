@@ -19,20 +19,11 @@
  
 // Fix login buttton
 
-const existingButton = document.querySelector(".btn-login");
-if (existingButton) {
-  existingButton.onclick = function () {
-    window.open("https://launchpad.classlink.com/login", "_self");
+
+
+const coolButton = document.querySelector(".btn-login");
+if (coolButton) {
+  coolButton.onclick = function () {
+    window.open("https://launchpad.classlink.com/login", "_self", console.log("it worked!!"));
   };
 };
-
-
-
-
-// If it worked
-console.log("we made it to the end of the script succesfully");
-
-
-
-
-            
