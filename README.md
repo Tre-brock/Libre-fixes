@@ -8,7 +8,7 @@ Features: <br>
 
 Google Docs LibreJS workaround, letting you download google docs  <br>
 SumOfUs LibreJS workaround  <br>
-DMCA Copyright.gov LibreJS workaround  User reddit without unfree JS<br>
+DMCA Copyright.gov LibreJS workaround  Use reddit without unfree JS<br>
 RSF LibreJS workaround  <br>
 McDonalds and ATTWiFi LibreJS workaround  <br>
 Goteo LibreJS workaround  <br>
@@ -16,7 +16,7 @@ Easy install of newest Libre JS version.<br>
 ceca.es LibreJS workaround  <br>
 sermepa.es LibreJS workaround  <br>
 USPS Shipping Calculator LibreJS by clicking the icon  <br>
-Tells you to use a freedom respecting email client when going to gmail.<br>
+Tells you to use a free email client when going to gmail.<br>
 <br>
 WORK IN PROGRESS <br>
 
