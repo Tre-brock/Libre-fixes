@@ -23,3 +23,4 @@ WORK IN PROGRESS <br>
 Sign into classlink without nonfree js.<br>
 (https://launchpad.classlink.com) <br>
 Current progress: 20%. You can currently click on the login here button without js and then get onto the next step, but not much else.
+
