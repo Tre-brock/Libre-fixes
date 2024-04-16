@@ -1,5 +1,8 @@
 # Libre Fixes JS ![image](https://github.com/Tre-brock/Replacements-and-workarounds-for-nonfree-js/assets/152460754/1f5565a7-4fc9-4a02-a438-48f6f84cbdd2)
 
+Moved to https://notabug.org/Tre_brock/Libre-Fixes-JS
+<br>
+<br>
 This addon is mainly ment to be included with LibreJs. https://www.gnu.org/software/librejs/ <br>
  A collection of work-around scripts for a few different websites that are impossible to use without non-free JavaScript.
 
