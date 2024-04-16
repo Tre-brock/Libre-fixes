@@ -3,6 +3,7 @@
 Moved to https://notabug.org/Tre_brock/Libre-Fixes-JS
 <br>
 <br>
+<hr>
 This addon is mainly ment to be included with LibreJs. https://www.gnu.org/software/librejs/ <br>
  A collection of work-around scripts for a few different websites that are impossible to use without non-free JavaScript.
 
